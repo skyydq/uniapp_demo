@@ -1,0 +1,504 @@
+{
+    "pages" : [
+        {
+            "path" : "pages/tabBar/exchange/exchange",
+            "style" : {
+                "titleNView" : false
+            }
+        },
+        {
+            "path" : "pages/login/index",
+            "style" : {
+                "titleNView" : false,
+                "navigationBarTitleText" : "聚德商城-登录"
+            }
+        },
+        {
+            "path" : "pages/tabBar/mall/mall",
+            "style" : {
+				 "titleNView" : false
+			}
+        },
+        {
+            "path" : "pages/tabBar/center/center",
+            "style" : {
+                "titleNView" : false,
+                "navigationBarTitleText" : "个人中心"
+            }
+        },
+        {
+            "path" : "pages/register/register",
+            "style" : {
+                "navigationBarTitleText" : "注册",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/feedback/feedback",
+            "style" : {
+                "navigationBarTitleText" : "问题反馈",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "提交",
+                                "color" : "#E5BC2D",
+                                "fontSize" : "16px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/personal_data/personal_data",
+            "style" : {
+                "navigationBarTitleText" : "个人资料",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "重置",
+                                "color" : "#E5BC2D",
+                                "fontSize" : "16px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/settlement/deal_detail",
+            "style" : {
+                "navigationBarTitleText" : "交易详情",
+                "app-plus" : {
+                    "titleNView" : {
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/settlement/accept",
+            "style" : {
+                "navigationBarTitleText" : "收款确认",
+                "app-plus" : {
+                    "titleNView" : {
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/settlement/paid",
+            "style" : {
+                "navigationBarTitleText" : "打款处理",
+                "app-plus" : {
+                    "titleNView" : {
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/processing/accept",
+            "style" : {
+                "navigationBarTitleText" : "接受帮助",
+                "app-plus" : {
+                    "titleNView" : {
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/processing/investment",
+            "style" : {
+                "navigationBarTitleText" : "提供帮助-投资款",
+                "app-plus" : {
+                    "titleNView" : {
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/processing/competition",
+            "style" : {
+                "navigationBarTitleText" : "提供帮助-抢单",
+                "app-plus" : {
+                    "titleNView" : {
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/processing/advance",
+            "style" : {
+                "navigationBarTitleText" : "提供帮助-预付款",
+                "app-plus" : {
+                    "titleNView" : {
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/currency/currency_detail",
+            "style" : {
+                "navigationBarTitleText" : "排单币"
+            }
+        },
+        {
+            "path" : "pages/currency/currency",
+            "style" : {
+                "navigationBarTitleText" : "排单币",
+                "app-plus" : {
+                    "titleNView" : {
+                        // "type" : "transparent",
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                       
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/activation/activation",
+            "style" : {
+                "navigationBarTitleText" : "激活码",
+                "app-plus" : {
+                    "titleNView" : {
+                        // "type" : "transparent",
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                       
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/activation/activation_detail",
+            "style" : {
+                "navigationBarTitleText" : "激活码"
+            }
+        },
+        {
+            "path" : "pages/record/collected", //收款记录
+            "style" : {
+                "navigationBarTitleText" : "收款记录",
+				"enablePullDownRefresh":true,
+                "app-plus" : {
+                    "titleNView" : {
+                        // "type" : "transparent",
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                       
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/record/paid", //付款记录
+            "style" : {
+                "navigationBarTitleText" : "付款记录",
+				"enablePullDownRefresh":true,
+                "app-plus" : {
+                    "titleNView" : {
+                        // "type" : "transparent",
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                       
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/record/accept_order_detail", //接受帮助订单详请
+            "style" : {
+                "navigationBarTitleText" : "卖出聚德详请",
+                "app-plus" : {
+                    "titleNView" : {
+                        // "type" : "transparent",
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                       
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/record/accept_order", //接受帮助订单
+            "style" : {
+                "navigationBarTitleText" : "卖出聚德记录",
+				"enablePullDownRefresh":true,
+                "app-plus" : {
+                    "titleNView" : {
+                        // "type" : "transparent",
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                       
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/record/offer_order", //提供帮助订单
+            "style" : {
+                "navigationBarTitleText" : "买入聚德记录",
+				"enablePullDownRefresh":true,
+                
+				"app-plus":{
+					"pullToRefresh":{
+						"support":true
+					},
+                    "titleNView" : {
+                        // "type" : "transparent",
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                       
+                    }
+				},
+				"h5":{
+					"pullToRefresh":{
+						"color":"#E5BC2D"
+					}
+				}
+            }
+        },
+        {
+            "path" : "pages/record/offer_order_detail", //提供帮助订单详请
+            "style" : {
+                "navigationBarTitleText" : "买入聚德详请",
+                "app-plus" : {
+                    "titleNView" : {
+                        // "type" : "transparent",
+                        "titleColor":"#fff",
+                        "backgroundColor":"#1A1A24"
+                       
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/bulletin/bulletin_detail",
+            "style" : {
+                "navigationBarTitleText" : "消息详请"
+            }
+        },
+        {
+            "path" : "pages/bulletin/message",
+            "style" : {
+                "navigationBarTitleText" : "消息中心"
+            }
+        },
+        {
+            "path" : "pages/bulletin/bulletin",
+            "style" : {
+                "navigationBarTitleText" : "系统公告"
+            }
+        },
+        {
+            "path" : "pages/personal_data/bank/bank",
+            "style" : {
+                "navigationBarTitleText" : "银行卡",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "保存",
+                                "color" : "#E5BC2D",
+                                "fontSize" : "16px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/personal_data/alipay/alipay",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "保存",
+                                "color" : "#E5BC2D",
+                                "fontSize" : "16px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/personal_data/password/tranisiton",
+            "style" : {
+                "navigationBarTitleText" : "设置密码",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "保存",
+                                "color" : "#E5BC2D",
+                                "fontSize" : "16px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/personal_data/password/login",
+            "style" : {
+                "navigationBarTitleText" : "修改密码",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "保存",
+                                "color" : "#E5BC2D",
+                                "fontSize" : "16px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/manager/manager",
+            "style" : {
+                "navigationBarTitleText" : "团队管理",
+                "app-plus" : {
+                    "titleNView":{
+                        "backgroundColor":"#21212B",
+                        "titleColor":"#ffffff"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/manager/search/search",
+            "style" : {
+                "titleNView" : false,
+                "navigationBarTitleText" : "搜索人员"
+            }
+        },
+        {
+            "path" : "pages/manager/detail/detail",
+            "style" : {
+                "navigationBarTitleText" : "组员详请",
+                "app-plus" : {
+                    "titleNView":{
+                        "backgroundColor":"#21212B",
+                        "titleColor":"#ffffff"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/wallet",
+            "style" : {
+                "navigationBarTitleText" : "钱包"
+            }
+        },
+		{
+		    "path" : "pages/wallet/wallet_acitity",
+		    "style" : {
+		        "navigationBarTitleText" : "动态钱包",
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            {
+				                "text" : "提现",
+				                "color" : "#E5BC2D",
+				                "fontSize" : "16px"
+				            }
+				        ]
+				    }
+				}
+				
+		    }
+		},
+        {
+            "path" : "pages/manager/register/register",
+            "style" : {
+                "navigationBarTitleText" : "协助注册",
+                "app-plus" : {
+                    "titleNView" :false
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/cash/cash",
+            "style" : {
+                "navigationBarTitleText" : "提现申请"
+            }
+        },
+        {
+            "path" : "pages/spread/spread",
+            "style" : {
+				"navigationBarTitleText" : "网址推广"
+			}
+        }
+        ,{
+            "path" : "pages/reset/reset",
+            "style" : {
+                "navigationBarTitleText" : "重置密码",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },{
+            "path" : "pages/userReset/userReset",
+            "style" : {
+                "navigationBarTitleText" : "重置质料"
+            }
+        }
+    ],
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "聚德商城",
+        "navigationBarBackgroundColor" : "#21212B",
+        "backgroundColor" : "#1A1A24",
+        "onReachBottomDistance":60
+		
+    },
+    "tabBar" : {
+        "color" : "#fff",
+        "selectedColor" : "#DFBA3C",
+        "borderStyle" : "black",
+        "backgroundColor" : "#21212B",
+        "list" : [
+            {
+                "pagePath" : "pages/tabBar/exchange/exchange",
+                "iconPath" : "static/menu_homepage_default.png",
+                "selectedIconPath" : "static/menu_homepage_click.png",
+                "text" : "交易所"
+            },
+            {
+                "pagePath" : "pages/tabBar/mall/mall",
+                "iconPath" : "static/menu_shop_default.png",
+                "selectedIconPath" : "static/menu_shop_click.png",
+                "text" : "商城"
+            },
+            {
+                "pagePath" : "pages/tabBar/center/center",
+                "iconPath" : "static/menu_personal_default.png",
+                "selectedIconPath" : "static/menu_personal_click.png",
+                "text" : "我的"
+            }
+        ]
+    }
+}
