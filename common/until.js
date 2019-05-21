@@ -2,12 +2,9 @@ import store from '@/store/index.js'
 
 let u, info ={};
 if (process.env.NODE_ENV === "development") {
-  u = "http://192.144.143.251:8090/api";
-
+  u = "http://192.168.1.1:8090/api";
 } else {
-  u = "https://aapi.jdscmall.com/api";
-  // u = "http://192.144.143.251:8090/api";
-
+  u = "http://192.168.1.1:8090/api";
 }
 export const baseUrl = u;
 
